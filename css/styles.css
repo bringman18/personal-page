@@ -2,6 +2,7 @@
 font-family: 'Merriweather', serif;
 font-family: 'Sacramento', cursive; */
 
+
 body {
     margin: 0px;
     text-align: center;
@@ -21,11 +22,13 @@ h2 {
     font-size: 2.5rem; /* 40px */
     font-weight: lighter;
     color: #424874;
+    margin: 100px auto;
 }
 
 h3 {
     font-family: 'Baloo 2', cursive;
     color: #7684c2;
+    font-size: 1.25rem;
 }
 
 a  {
@@ -36,20 +39,27 @@ span  {
     font-weight: bold;
 }
 
+hr  {
+    border-top: 9px dotted #747474;
+    opacity: 50%;
+    width: 8%;
+}
+
 .top-container {
     background: #a5bee4;
     position: relative;
     padding-top: 100px;
 }
 
-
-
-.middle-container {
-    
+.profile  {
+    width: 55%;
+    margin: 50px auto 100px auto;
+    line-height: 2;
 }
 
-.bottom-container {
-    
+.skills  {
+    max-width: 1200px;
+    margin: auto;
 }
 
 .skill-row  {
@@ -75,6 +85,11 @@ span  {
 .mountain  {
     position: relative;
     top: 5px;
+}
+
+.profile-img  {
+    width: 30%;
+    border-radius: 100%;
 }
 
 .brainstorm-img  {
