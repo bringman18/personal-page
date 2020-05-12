@@ -1,0 +1,107 @@
+/* font-family: 'Baloo 2', cursive;
+font-family: 'Merriweather', serif;
+font-family: 'Sacramento', cursive; */
+
+body {
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    margin: 50px auto 0px auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem; /* 90px */
+    color: #424874;
+    line-height: .75;
+}
+
+h2 {
+    font-family: 'Baloo 2', sans-serif;
+    font-size: 2.5rem; /* 40px */
+    font-weight: lighter;
+    color: #424874;
+}
+
+h3 {
+    font-family: 'Baloo 2', cursive;
+    color: #7684c2;
+}
+
+a  {
+    color: #7684c2;
+}
+
+span  {
+    font-weight: bold;
+}
+
+.top-container {
+    background: #a5bee4;
+    position: relative;
+    padding-top: 100px;
+}
+
+
+
+.middle-container {
+    
+}
+
+.bottom-container {
+    
+}
+
+.skill-row  {
+    width: 55%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+/*----------Images Styles BEGIN HERE----------*/
+.top-cloud {
+    position: absolute;
+    right: 200px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 200px;
+    bottom: 280px;
+}
+
+.mountain  {
+    position: relative;
+    top: 5px;
+}
+
+.brainstorm-img  {
+    width: 30%;
+    float: left;
+    margin-right: 30px;
+    margin-top: 12.5px;
+}
+
+.dev-img  {
+    width: 30%;
+    float: right;
+    margin-left: 30px;
+    margin-top: 12.5px;
+}
+
+.tablet-img  {
+    width: 30%;
+    float: left;
+    margin-right: 30px;
+    margin-top: 12.5px;
+}
+
+/* ----------Images Styles END HERE!---------- */
+
+
+
+
+
+
