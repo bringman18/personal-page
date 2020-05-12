@@ -7,6 +7,7 @@ body {
     margin: 0px;
     text-align: center;
     font-family: 'Merriweather', serif;
+    color: #2b2b2b;
 }
 
 h1 {
@@ -22,17 +23,19 @@ h2 {
     font-size: 2.5rem; /* 40px */
     font-weight: lighter;
     color: #424874;
-    margin: 100px auto;
 }
 
 h3 {
-    font-family: 'Baloo 2', cursive;
+    font-family: 'Baloo 2', sans-serif;
     color: #7684c2;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
 }
 
 a  {
     color: #7684c2;
+    font-family: 'Baloo 2', sans-serif;
+    text-decoration: none;
+    margin: auto 25px;
 }
 
 span  {
@@ -43,12 +46,25 @@ hr  {
     border-top: 9px dotted #747474;
     opacity: 50%;
     width: 8%;
+    margin-bottom: 100px;
 }
 
 .top-container {
     background: #a5bee4;
     position: relative;
     padding-top: 100px;
+}
+
+.top-container span  {
+    color: #ffffff;
+}
+
+.bottom-container  {
+    background: #a5bee4;
+    margin-top: 100px;
+    height: auto;
+    padding: 25px;
+    line-height: 2;
 }
 
 .profile  {
@@ -68,6 +84,35 @@ hr  {
     text-align: left;
     line-height: 2;
 }
+
+.contact-me  {
+    width: 55%;
+    margin: 0 auto;
+    line-height: 2;
+}
+
+.btn  {
+    background-color: #7684c2;
+    background-image: linear-gradient( #a5bee4, #7684c2);
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-family: 'Baloo 2', sans-serif;
+    position: relative;
+    top: 25px;
+}
+
+.bottom-container p  {
+    font-size: .75rem;
+    color: white;
+}
+
+.icons  {
+    font-size: .75rem;
+    color: white;
+}
+
 
 /*----------Images Styles BEGIN HERE----------*/
 .top-cloud {
